@@ -153,7 +153,7 @@
 
   "background": {
     "url": "https://files.catbox.moe/iuvfxb.jpg",
-    "alpha": 0.82,
+    "alpha": 0.90,
     "blur": 0.05,
     "size": "cover",
     "position": "center"
@@ -161,13 +161,9 @@
 
   "plus": {
     "version": "0",
-
     "iconpack": "rosiecord-plumpy",
-
     "mentionLineColor": "#8ea6ff",
-
     "customOverlays": true,
-
     "fonts": {
       "chat_input": "'Inter', sans-serif",
       "code_block": "'JetBrains Mono', monospace"
@@ -179,15 +175,10 @@
       "StatusDND": "#ff7b9d",
       "StatusOffline": "#596685",
       "StatusStreaming": "#b388ff",
-
       "search": "#7f8db3",
-
       "member_list_badge_16px": "#b388ff",
-
       "img_guild_folder": "#8ea6ff",
-
       "ic_crown_16px": "#ffd37a",
-
       "ic_selection_checked_24px": "#8ea6ff",
       "ic_selection_checked_24px__overlay": "#edf2ff"
     }
