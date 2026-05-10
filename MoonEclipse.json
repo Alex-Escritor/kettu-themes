@@ -1,7 +1,7 @@
 {
   "name": "MoonEclipse",
   "description": "Luxury AMOLED moonlight theme with celestial violet and deep-space blue aesthetics.",
-  "version": "2.0",
+  "version": "3.0",
   "authors": [
     {
       "name": "Alex",
@@ -163,9 +163,9 @@
   },
 
   "background": {
-    "blur": 0,
-    "alpha": 1,
-    "color": "#000000"
+  "url": "https://files.catbox.moe/vptqwx.jpg",
+  "blur": 3,
+  "alpha": 0.16
   },
 
   "plus": {
