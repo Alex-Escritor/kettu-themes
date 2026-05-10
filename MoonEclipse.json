@@ -116,7 +116,7 @@
   "background": {
     "url": "https://files.catbox.moe/d1eiul.jpg",
     "alpha": 0.82,
-    "blur": 8.05,
+    "blur": 3.05,
     "size": "cover",
     "position": "center"
   },
