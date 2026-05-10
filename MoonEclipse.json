@@ -4,8 +4,8 @@
   "version": "2.0.0",
   "authors": [
     {
-      "name": "Alex & Luna",
-      "id": "0"
+      "name": "alex_godbuilder",
+      "id": "1278364177832083536"
     }
   ],
 
@@ -115,8 +115,8 @@
 
   "background": {
     "url": "https://files.catbox.moe/iuvfxb.jpg",
-    "alpha": 0.90,
-    "blur": 0.05,
+    "alpha": 0.82,
+    "blur": 0.08,
     "size": "cover",
     "position": "center"
   },
