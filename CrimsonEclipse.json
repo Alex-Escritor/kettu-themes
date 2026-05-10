@@ -124,7 +124,6 @@
     "iconpack": "solar-duotune",
     "mentionLineColor": "#ff4d6d",
     "customOverlays": true,
-
     "icons": {
       "StatusOnline": "#7ee787",
       "StatusIdle": "#ffb86c",
@@ -138,7 +137,6 @@
       "ic_selection_checked_24px": "#ff4d6d",
       "ic_selection_checked_24px__overlay": "#ffe5ea"
     },
-
     "fonts": {
       "chat_input": "'JetBrains Mono', monospace",
       "code_block": "'JetBrains Mono', monospace"
