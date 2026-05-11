@@ -4,7 +4,7 @@ import { after } from "@vendetta/patcher";
 
 const patches = [];
 
-const { View } = ReactNative;
+const View = ReactNative.View;
 
 const WebhookOverview = findByName("ConnectedWebhooksOverview");
 const ButtonModule = findByProps("ButtonColors", "ButtonSizes");
@@ -29,10 +29,10 @@ const styles = ReactNative.StyleSheet.create({
 });
 
 function onLoad() {
-    console.log("CREATE WEBHOOKS LOADED");
+    console.log("[CreateWebhooks] Loaded");
 
     if (!WebhookOverview) {
-        console.log("WebhookOverview not found");
+        console.log("[CreateWebhooks] Overview not found");
         return;
     }
 
@@ -44,37 +44,42 @@ function onLoad() {
 
                 if (!channel) return res;
 
-                return (
-                    <View style={styles.container}>
-                        {res}
+                return React.createElement(
+                    View,
+                    {
+                        style: styles.container
+                    },
 
-                        <Button
-                            text={
-                                i18n?.Messages?.WEBHOOK_CREATE ??
-                                "Create Webhook"
+                    res,
+
+                    React.createElement(Button, {
+                        text:
+                            i18n?.Messages?.WEBHOOK_CREATE ||
+                            "Create Webhook",
+
+                        style: styles.button,
+
+                        color: "brand",
+
+                        onPress: () => {
+                            try {
+                                WebhookActions?.create?.(
+                                    channel.guild_id,
+                                    channel.id,
+                                    "Webhook"
+                                );
+
+                                WebhookActions?.fetchForChannel?.(
+                                    channel.id
+                                );
+                            } catch (e) {
+                                console.error(e);
                             }
-                            style={styles.button}
-                            color="brand"
-                            onPress={() => {
-                                try {
-                                    WebhookActions?.create?.(
-                                        channel.guild_id,
-                                        channel.id,
-                                        "Webhook"
-                                    );
-
-                                    WebhookActions?.fetchForChannel?.(
-                                        channel.id
-                                    );
-                                } catch (e) {
-                                    console.error(e);
-                                }
-                            }}
-                        />
-                    </View>
+                        }
+                    })
                 );
             } catch (e) {
-                console.error(e);
+                console.error("[CreateWebhooks]", e);
                 return res;
             }
         })
