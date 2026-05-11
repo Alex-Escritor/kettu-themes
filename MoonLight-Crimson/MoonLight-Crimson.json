@@ -1,0 +1,119 @@
+{
+  "name": "MoonLight Crimson",
+  "description": "Aggressive AMOLED crimson theme for Rain/Kettu",
+  "authors": [
+    {
+      "name": "alex_godbuilder",
+      "id": "1278364177832083536"
+    }
+  ],
+  "spec": 2,
+
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": ["#050505"],
+    "BACKGROUND_SECONDARY": ["#090909"],
+    "BACKGROUND_SECONDARY_ALT": ["#0d0d0d"],
+    "BACKGROUND_TERTIARY": ["#000000"],
+    "CHAT_BACKGROUND": ["#050505"],
+    "BACKGROUND_FLOATING": ["#0b0b0bdd"],
+    "BACKGROUND_NESTED_FLOATING": ["#080808ee"],
+    "BACKGROUND_SURFACE_HIGH": ["#111111"],
+    "CARD_PRIMARY_BG": ["#101010cc"],
+    "CARD_SECONDARY_BG": ["#151515cc"],
+    "BACKGROUND_MODIFIER_HOVER": ["#1a0000"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#220000"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#2b0000"],
+    "BACKGROUND_MESSAGE_HOVER": ["#16000066"],
+    "BACKGROUND_ACCENT": ["#ff1744"],
+    "HEADER_PRIMARY": ["#ffffff"],
+    "HEADER_SECONDARY": ["#ff9eb0"],
+    "TEXT_NORMAL": ["#f5f5f5"],
+    "TEXT_MUTED": ["#a86874"],
+    "TEXT_LINK": ["#ff335f"],
+    "CHANNELS_DEFAULT": ["#d66b7f"],
+    "CHANNEL_ICON": ["#ff8aa1"],
+    "INTERACTIVE_NORMAL": ["#f5c1ca"],
+    "INTERACTIVE_HOVER": ["#ffffff"],
+    "INTERACTIVE_ACTIVE": ["#ff335f"],
+    "INTERACTIVE_MUTED": ["#6b3d46"],
+    "MENTION_FOREGROUND": ["#ff4d6d"],
+    "MENTION_BACKGROUND": ["#ff174433"],
+    "SCROLLBAR_AUTO_THUMB": ["#5e000f"],
+    "SCROLLBAR_AUTO_TRACK": ["#120000"],
+    "REDESIGN_CHAT_INPUT_BACKGROUND": ["#0f0f0fcc"],
+    "STATUS_POSITIVE": ["#72ff9f"],
+    "STATUS_DANGER": ["#ff335f"],
+    "REDESIGN_BUTTON_PRIMARY_BACKGROUND": ["#b30024"],
+    "REDESIGN_BUTTON_PRIMARY_PRESSED_BACKGROUND": ["#ff1744"],
+    "CONTROL_PRIMARY_BACKGROUND_DEFAULT": ["#b30024"],
+    "CONTROL_PRIMARY_BACKGROUND_ACTIVE": ["#ff1744"],
+    "CONTROL_SECONDARY_BACKGROUND_DEFAULT": ["#181818"],
+    "CONTROL_SECONDARY_BACKGROUND_ACTIVE": ["#2a0000"],
+    "BORDER_FAINT": ["#2a0a12"]
+  },
+
+  "rawColors": {
+    "PRIMARY_100": "#ffffff",
+    "PRIMARY_200": "#ffd6dd",
+    "PRIMARY_300": "#ff9eb0",
+    "PRIMARY_400": "#ff5c7a",
+    "PRIMARY_500": "#ff1744",
+    "PRIMARY_600": "#050505",
+    "PRIMARY_630": "#080808",
+    "PRIMARY_660": "#0b0b0b",
+    "PRIMARY_700": "#101010",
+    "PRIMARY_800": "#151515",
+    "BRAND_260": "#ff335f",
+    "BRAND_360": "#ff1744",
+    "BRAND_500": "#d1002f",
+    "BRAND_560": "#a00023",
+    "RED_400": "#ff1744",
+    "GREEN_360": "#72ff9f",
+    "PLUM_3": "#ffffff",
+    "PLUM_9": "#ffccd5",
+    "PLUM_10": "#ff9eb0",
+    "PLUM_13": "#2b0000",
+    "PLUM_15": "#45000d",
+    "PLUM_16": "#660011",
+    "PLUM_17": "#0d0d0d",
+    "PLUM_18": "#090909",
+    "PLUM_20": "#050505",
+    "PLUM_23": "#000000",
+    "WHITE_500": "#ffffff",
+    "BLACK_500": "#000000cc"
+  },
+
+  "background": {
+    "url": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "blur": 0.35,
+    "alpha": 0.65,
+    "size": "cover",
+    "position": "center"
+  },
+
+  "fonts": {
+    "ggsans-Normal": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Regular.ttf",
+    "ggsans-Medium": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Medium.ttf",
+    "ggsans-Bold": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Bold.ttf",
+    "SourceCodePro-Semibold": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono-Regular.ttf"
+  },
+
+  "plus": {
+    "version": "0",
+    "iconpack": "rosiecord-plumpy",
+    "mentionLineColor": "#ff1744",
+    "customOverlays": true,
+    "icons": {
+      "StatusOnline": "#72ff9f",
+      "StatusIdle": "#ffb347",
+      "StatusDND": "#ff1744",
+      "StatusOffline": "#5a5a5a",
+      "ic_crown_16px": "#ff335f",
+      "search": "#ff758f"
+    },
+    "fonts": {
+      "chat_input": "'JetBrains Mono', monospace",
+      "code_block": "'JetBrains Mono', monospace"
+    }
+  }
+}
