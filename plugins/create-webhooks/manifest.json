@@ -7,7 +7,7 @@
       "id": "1278364177832083536"
     }
   ],
-  "main": "src/index.js",
+  "main": "index.js",
   "hash": "auto",
   "vendetta": {
     "icon": "ic_webhook_24px"
