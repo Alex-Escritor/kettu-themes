@@ -1,5 +1,5 @@
 {
-  "name": "BloodMoon Requiem",
+  "name": "BloodMoon",
   "description": "An aggressive crimson-black AMOLED theme for Kettu/Rain inspired by gothic neon, blood moons and cyber darkness.",
   "version": "1.0.0",
   "authors": [
@@ -142,14 +142,14 @@
   "background": {
     "url": "https://files.catbox.moe/8jwvn4.jpg",
     "alpha": 0.16,
-    "blur": 4.35,
+    "blur": 2.35,
     "size": "cover",
     "position": "center"
   },
 
   "plus": {
     "version": "0",
-    "iconpack": "solar-duotune",
+    "iconpack": "rosiecord-plumpy",
     "mentionLineColor": "#ff1e3c",
     "customOverlays": true,
     "icons": {
