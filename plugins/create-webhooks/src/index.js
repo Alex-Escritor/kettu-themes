@@ -2,7 +2,7 @@ import { findByName, findByProps } from "@vendetta/metro";
 import { React, ReactNative, i18n } from "@vendetta/metro/common";
 import { after } from "@vendetta/patcher";
 
-const patches: Array<() => void> = [];
+const patches = [];
 
 const { View } = ReactNative;
 
@@ -29,8 +29,10 @@ const styles = ReactNative.StyleSheet.create({
 });
 
 function onLoad() {
+    console.log("CREATE WEBHOOKS LOADED");
+
     if (!WebhookOverview) {
-        console.log("[CreateWebhook] WebhookOverview not found");
+        console.log("WebhookOverview not found");
         return;
     }
 
@@ -65,17 +67,14 @@ function onLoad() {
                                         channel.id
                                     );
                                 } catch (e) {
-                                    console.error(
-                                        "[CreateWebhook]",
-                                        e
-                                    );
+                                    console.error(e);
                                 }
                             }}
                         />
                     </View>
                 );
             } catch (e) {
-                console.error("[CreateWebhook Patch]", e);
+                console.error(e);
                 return res;
             }
         })
