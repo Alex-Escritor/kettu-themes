@@ -1,0 +1,104 @@
+/* AMOLED */
+
+:root {
+  --ml-crimson: #ff1744;
+  --ml-darkred: #5c0011;
+  --ml-bg: rgba(5,5,5,.78);
+}
+
+/* Smooth animations */
+
+* {
+  transition:
+    background-color .18s ease,
+    border-color .18s ease,
+    box-shadow .18s ease,
+    transform .12s ease;
+}
+
+/* Blur panels */
+
+[class*=container],
+[class*=panel],
+[class*=content],
+[class*=card] {
+  backdrop-filter: blur(18px) saturate(135%);
+  -webkit-backdrop-filter: blur(18px) saturate(135%);
+}
+
+/* Floating cards */
+
+[class*=card] {
+  border:
+    1px solid rgba(255, 40, 80, 0.08);
+
+  box-shadow:
+    0 0 18px rgba(255, 20, 60, 0.08);
+}
+
+/* Chat input */
+
+[class*=channelTextArea] {
+  border-radius: 18px !important;
+
+  border:
+    1px solid rgba(255, 30, 70, 0.15);
+
+  box-shadow:
+    0 0 14px rgba(255, 20, 60, 0.10);
+}
+
+/* Hover glow */
+
+[class*=button]:hover,
+[class*=interactive]:hover {
+  box-shadow:
+    0 0 14px rgba(255, 20, 60, 0.18);
+}
+
+/* Mention line */
+
+[class*=mentioned] {
+  border-left:
+    2px solid var(--ml-crimson) !important;
+
+  background:
+    rgba(255, 20, 60, 0.08) !important;
+}
+
+/* Scrollbars */
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 20, 60, 0.35);
+  border-radius: 999px;
+}
+
+/* Activity cards */
+
+[class*=activity] {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,20,60,.12),
+      rgba(0,0,0,.45)
+    ) !important;
+
+  border:
+    1px solid rgba(255,20,60,.10);
+}
+
+/* AMOLED effect */
+
+body {
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(80,0,15,.15),
+      transparent 45%
+    ),
+    #000000 !important;
+}
