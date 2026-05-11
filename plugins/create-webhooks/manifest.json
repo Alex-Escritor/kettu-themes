@@ -1,0 +1,15 @@
+{
+  "name": "Create Webhooks",
+  "description": "Create webhooks from webhook settings",
+  "authors": [
+    {
+      "name": "alex_godbuilder",
+      "id": "1278364177832083536"
+    }
+  ],
+  "main": "index.js",
+  "hash": "auto",
+  "vendetta": {
+    "icon": "ic_webhook_24px"
+  }
+}
